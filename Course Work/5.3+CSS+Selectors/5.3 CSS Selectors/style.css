@@ -5,3 +5,28 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+/* all paragraph elments - red */
+p{
+  color:red;
+}
+
+/* all note class at 19px*/
+.note{
+  font-size: 20px;
+}
+
+/* all ids of id-selector-demo are green*/
+#id-selector-demo{
+  color:green;
+}
+
+/*all li elments with an attribute value = 3 are blue */
+
+li[value="4"]{
+    color:blue;
+} 
+
+/*everything centered */
+*{
+  text-align: center;
+}
