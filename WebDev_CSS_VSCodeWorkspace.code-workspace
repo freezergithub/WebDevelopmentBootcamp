@@ -1,6 +1,18 @@
 {
 	"folders": [
 		{
+			"name": "5.1+Adding+CSS",
+			"path": "Course Work/5.1+Adding+CSS"
+		},
+		{
+			"name": "5.3+CSS+Selectors",
+			"path": "Course Work/5.3+CSS+Selectors"
+		},
+		{
+			"name": "5.4+Color+Vocab+Project",
+			"path": "Course Work/5.4+Color+Vocab+Project"
+		},
+		{
 			"name": "6.0+CSS+Colors",
 			"path": "Course Work/6.0+CSS+Colors"
 		},
@@ -31,6 +43,26 @@
 		{
 			"name": "7.3+Flag+Project",
 			"path": "Course Work/7.3+Flag+Project"
+		},
+		{
+			"name": "8.0+CSS+Display",
+			"path": "Course Work/8.0+CSS+Display"
+		},
+		{
+			"name": "8.1+CSS+Float",
+			"path": "Course Work/8.1+CSS+Float"
+		},
+		{
+			"name": "8.2+Responsiveness",
+			"path": "Course Work/8.2+Responsiveness"
+		},
+		{
+			"name": "8.3+Media+Query",
+			"path": "Course Work/8.3+Media+Query"
+		},
+		{
+			"name": "8.4+Web+Design+Agency+Project",
+			"path": "Course Work/8.4+Web+Design+Agency+Project"
 		}
 	],
 	"settings": {}
