@@ -1,1 +1,26 @@
 /* Write your code here: */
+
+/* Grouping selectors - use comma*/
+h1, h2 {
+    color: blueviolet;
+}
+
+/* parent > child - angle bracket */
+.box > p {
+    color:firebrick;
+}
+
+/* ancestor descendant - space character*/
+.box li {
+    color:blue;
+}
+
+/* chaining selector - no space: has to have all of them */
+li.done {
+    color:seagreen
+}
+
+/* Combining Combiners - using ancestor chaining */
+ul p.done {
+    font-size: 0.5rem;
+}
