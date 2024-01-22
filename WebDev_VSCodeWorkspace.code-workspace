@@ -1,28 +1,36 @@
 {
 	"folders": [
 		{
+			"name": "6.0+CSS+Colors",
 			"path": "Course Work/6.0+CSS+Colors"
 		},
 		{
+			"name": "6.1+Font+Properties",
 			"path": "Course Work/6.1+Font+Properties"
 		},
 		{
+			"name": "6.3+CSS+Box+Model",
 			"path": "Course Work/6.3+CSS+Box+Model"
 		},
 		{
+			"name": "6.4+Motivation+Meme+Project",
 			"path": "Course Work/6.4+Motivation+Meme+Project"
 		},
 		{
-			"path": "Course Work/7.3+Flag+Project"
-		},
-		{
+			"name": "7.0+CSS+Cascade",
 			"path": "Course Work/7.0+CSS+Cascade"
 		},
 		{
+			"name": "7.1+Combining+Selectors",
 			"path": "Course Work/7.1+Combining+Selectors"
 		},
 		{
+			"name": "7.2+CSS+Positioning",
 			"path": "Course Work/7.2+CSS+Positioning"
+		},
+		{
+			"name": "7.3+Flag+Project",
+			"path": "Course Work/7.3+Flag+Project"
 		}
 	],
 	"settings": {}
