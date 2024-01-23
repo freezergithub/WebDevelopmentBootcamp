@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing CSS Grid & Centering Text</title>
+    <!-- internal css -->
+
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100px 200px 200px;
+            gap: 5px;
+        }
+
+        .first.grid-item {
+            grid-column: span 2;
+        }
+
+        .grid-item {
+            display: table;  /* allows centering of text */
+            background-color: aqua;
+            text-align: center;
+            font-size: 70px;
+            border: 2px solid grey;
+        }
+
+        span {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <h1>Example of CSS - display:grid </h1>
+    <div class="grid-container">
+        <div class="first grid-item"><span>0</span></div>
+        <div class="grid-item"><span>1</span></div>
+        <div class="grid-item"><span>2</span></div>
+        <div class="grid-item"><span>3</span></div>
+        <div class="grid-item"><span>4</span></div>
+    </div>
+    
+</body>
+</html>

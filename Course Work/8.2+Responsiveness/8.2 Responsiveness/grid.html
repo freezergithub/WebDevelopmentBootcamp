@@ -8,17 +8,22 @@
   <style>
     .grid-container {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 100px 200px 200px;
-      gap: 30px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 100px 200px 50px;
+      gap: 10px;
     }
 
     .first {
-      grid-column: span 2;
+      grid-column: span 3;
     }
 
     .card {
       background-color: blue;
+      color: white;
+    }
+
+    .last {
+      grid-column: span 3;
     }
   </style>
 </head>
@@ -26,11 +31,11 @@
 <body>
   <h1>CSS Grid</h1>
   <div class="grid-container">
-    <div class="first card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
+    <div class="first card">1</div>
+    <div class="card">2</div>
+    <div class="card">3</div>
+    <div class="card">4</div>
+    <div class="last card">5</div>
   </div>
 
 </body>
