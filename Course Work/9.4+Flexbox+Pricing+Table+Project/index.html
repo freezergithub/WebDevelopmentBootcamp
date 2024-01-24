@@ -11,10 +11,69 @@
     <style>
       body {
         font-family: "Sono", sans-serif;
+        display:flex;
+        justify-content: center;
       }
+
+      .pricing-container {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height:100vh;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .pricing-plan {
+        text-align: center;
+        border: 3px solid lightseagreen;
+        border-radius: 5%;
+        padding: 10px;
+        min-width:375px;
+        flex:1;
+        background:linear-gradient(
+          rgb(199, 255, 253),
+           rgb(85, 210, 206),
+            #6771d8
+        );
+ 
+      }
+
+      .plan-title {
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+      
+      .plan-price {
+        font-weight: bold;
+        font-size: 3rem;
+      }
+
+      li {
+        list-style: none;
+        margin:15px;
+      }
+
+      .plan-button {
+        background-color: lightsalmon;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        font-size: 1.1rem;
+      }
+
+      .plan-button:hover {
+        background-color: orangered;
+      }
+
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
+        .pricing-container {
+          flex-direction: column;
+          height: 100%;
+        }
       }
     </style>
   </head>
@@ -29,7 +88,7 @@
           <li>✅ 1 User</li>
           <li>🚫 Support</li>
         </ul>
-        <button class="plan-button">Sign Up</button>
+        <button class="plan-button" onclick="window.location.href='https://www.signupgenius.com';">Sign Up</button>
       </div>
       <div class="pricing-plan">
         <div class="plan-title">Standard</div>
@@ -39,7 +98,7 @@
           <li>✅ 5 Users</li>
           <li>✅ Phone &amp; Email Support</li>
         </ul>
-        <button class="plan-button">Sign Up</button>
+        <button class="plan-button" onclick="window.location.href='https://www.signupgenius.com';">Sign Up</button>
       </div>
       <div class="pricing-plan">
         <div class="plan-title">Premium</div>
@@ -49,7 +108,7 @@
           <li>✅ 10 Users</li>
           <li>✅ 24/7 Support</li>
         </ul>
-        <button class="plan-button">Sign Up</button>
+        <button class="plan-button" onclick="window.location.href='https://www.signupgenius.com';">Sign Up</button>
       </div>
     </div>
   </body>
