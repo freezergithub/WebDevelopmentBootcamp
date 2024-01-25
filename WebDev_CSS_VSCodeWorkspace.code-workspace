@@ -65,13 +65,32 @@
 			"path": "Course Work/8.4+Web+Design+Agency+Project"
 		},
 		{
+			"name": "9.0+Display+Flex",
 			"path": "Course Work/9.0+Display+Flex"
 		},
 		{
+			"name": "9.1+Flex+Direction",
 			"path": "Course Work/9.1+Flex+Direction"
 		},
 		{
+			"name": "9.4+Flexbox+Pricing+Table+Project",
 			"path": "Course Work/9.4+Flexbox+Pricing+Table+Project"
+		},
+		{
+			"name": "10.0+Display+Grid",
+			"path": "Course Work/10.0+Display+Grid"
+		},
+		{
+			"name": "10.1+Grid+Sizing",
+			"path": "Course Work/10.1+Grid+Sizing"
+		},
+		{
+			"name": "10.2+Grid+Placement",
+			"path": "Course Work/10.2+Grid+Placement"
+		},
+		{
+			"name": "10.3+Mondrian+Project",
+			"path": "Course Work/10.3+Mondrian+Project"
 		}
 	],
 	"settings": {}
