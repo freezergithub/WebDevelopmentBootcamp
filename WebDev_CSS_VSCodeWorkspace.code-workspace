@@ -91,6 +91,15 @@
 		{
 			"name": "10.3+Mondrian+Project",
 			"path": "Course Work/10.3+Mondrian+Project"
+		},
+		{
+			"path": "Course Work/11.0+Bootstrap+Intro"
+		},
+		{
+			"path": "Course Work/11.2+Bootstrap+Components"
+		},
+		{
+			"path": "Course Work/11.3+TinDog+Project"
 		}
 	],
 	"settings": {}
