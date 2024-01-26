@@ -25,12 +25,17 @@
       justify-content: center;
       align-items:center;
       font-size:1rem;
+      
     }
 
     .grid-container {
       display: grid;
+      height: 748px;
+      width: 748px;
+      background-color: #000;
       grid-template-columns: 320px 198px 153px 50px;
       grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
     }
 
     .grid-container > * {
@@ -61,63 +66,28 @@
 
 
     /*item css definition */
-    .item1 {
-      border-right: 4.5px solid #000;
-      border-bottom: 4.5px solid #000;
-    }
-
-    .item1 {
-      border-right: 4.5px solid #000;
-      border-bottom: 4.5px solid #000;
-    }
 
     .item2 {
-      border-left: 4.5px solid #000;
-      border-bottom: 4.5px solid #000;
       grid-column: span 3;
     }
     .item3 {
-      border-top: 4.5px solid #000;
-      border-right: 4.5px solid #000;
-      border-bottom: 4.5px solid #000;
       grid-row: span 2;
     }
 
+    .item5{
+      border-bottom: 10px solid #000;
+    }
+
     .item4 {
-      border: 4.5px solid #000;
       grid-row: span 2;
       grid-column: span 2;
     }
 
-    .item5 {
-      border-top: 4.5px solid #000;
-      border-left: 4.5px solid #000;
-      border-bottom: 10px solid #000;
-    }
-
     .item6 {
-      border-top: 10px solid #000;
-      border-left: 4.5px solid #000;
       grid-row: span 2;
     }
 
-    .item7 {
-      border-top: 4.5px solid #000;
-      border-right: 4.5px solid #000;
-    }
-
-
-    .item8 {
-      border-top: 4.5px solid #000;
-      border-left: 4.5px solid #000;
-    }
-
-    .item9 {
-      border-top: 4.5px solid #000;
-      border-left: 4.5px solid #000;
-      border-right: 4.5px solid #000;
-    }
-
+  
 
   </style>
 </head>
