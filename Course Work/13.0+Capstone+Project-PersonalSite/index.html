@@ -23,19 +23,19 @@
             <div class="collapse navbar-collapse justify-left-md-center" id="navbarsExample08">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#anchor-home">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">About Me</a>
+                <a class="nav-link" aria-current="page" href="#anchor-about-me">About Me</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#anchor-personal-life">Personal Life</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Experience</a>
+                <a class="nav-link" aria-current="page" href="#anchor-experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Contact Me</a>
+                <a class="nav-link" aria-current="page" href="#anchor-contact-me">Contact Me</a>
                 </li>
 
             </ul>
@@ -43,9 +43,9 @@
         </div>
     </nav>
 
-    
-    <!--Header-->
-    <div class="header gradient-background">
+
+    <!--Header/Home-->
+    <div id="anchor-home" class="header gradient-background">
         <div class="container">
             <div class="row">
                 <div class="col text-center align-middle my-5">
@@ -67,18 +67,27 @@
 
 
     <!--About Me-->
-    <div class="px-4 py-5 text-center bg-light">
-        <img class="d-block mx-auto mb-4 rounded-circle" src="./images/profile.jpg" alt="" width="200">
-        <h2>About Me</h2>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">First and foremost, I am a son of the Most High, adopted into the family of God by the blood of my King, and faithful servant to the true God, Jesus who is indeed the Christ. </p>
+    <div id="anchor-about-me" class="bg-light">
+        <div class="container">
+            <div  class="py-5 text-center">
+                <img class="d-block mx-auto mb-4 rounded-circle" src="./images/profile.jpg" alt="" width="200">
+                <h2>About Me</h2>
+                <div class="col-lg-6 mx-auto text-start">
+                <p class="lead mb-4">First and foremost, I am a son of the Most High,
+                    adopted into the family of God by the blood of my King, and faithful servant to the true God,
+                    Jesus who is indeed the Christ. I aim my life at understanding the depths of God's love for me 
+                    that I might grow in oneness with him and that the love we have for others may be 
+                    papably felt by them and demonstrable.            
+                </p>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
 
 
     <!--Interests-->
     <div  id="anchor-personal-life" class="container">
-        <div class="row mb-2 mt-5">
+        <div class="row my-5">
             <div class="col px-5">
                 <h2>Personal Life</h2>
             </div>
@@ -98,14 +107,76 @@
             <div class="col-lg-4 px-5">
                 <img class="rounded-circle" height="200px" src="./images/ski_closeup.jpg" alt="my sister and me" />
             <h3 class="fw-normal text-start">Alpine Skiing</h3>
-            <p class="text-start">I've been skiing since my early teenage years.  Additional I taught lessons for 5 years at a small but fun place to learn near Sioux Falls, SD called Great Bear.</p>
+            <p class="text-start">I've been skiing since my early teenage years.  Additionally I taught lessons
+                 for 5 years and assisted with ski patrol at a small but fun place to learn near Sioux Falls,
+                 SD called Great Bear and made some wonderful connections with both co-workers and students.</p>
             </div><!-- /.col-lg-4 -->
         </div>
         </div>
     </div>
 
+    >
+    
     <!--Experience-->
-
+    <div id="anchor-experience" class="container px-4 py-5">
+        <p class="my-4 border-bottom"></p>
+        <h2 class="pb-2 mx-4">Skills & Experience</h2>
+        
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5 mx-1">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <section class="w-100 " style="text-align: left;">
+                <img src="./images/ProfessionalSkillsAndExperience.png" class="rounded-4 shadow-4 float-end m-2" alt="" style="height: 235px; filter: brightness(70%)">
+                <p style="font-size: 1.5rem;" _msttexthash="316965948" _msthash="279">I've worked in a number of industeries over the past 15 years allowing me to acquire a
+                    versatile set of troubleshooting and technical skills.  I tend to be very methodical & deeply analytical when
+                    approaching challenges and problem solving.</p>
+              </section>
+          </div>
+    
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center my-background bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#collection"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Apps Developer</h4>
+                <p class="text-body-secondary">Work with Microsoft SQL to create database solutions as well as Power Automate and Power Apps</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center my-background bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#gear-fill"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Assistant Tech Director</h4>
+                <p class="text-body-secondary">Troubleshoot and ensure smooth operation of sound system, livestream, and in house media presentation</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center my-background bg-gradient fs-4 rounded-3">
+                  <svg class="bi " width="1em" height="1em">
+                    <use xlink:href="#speedometer"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Support Engineer</h4>
+                <p class="text-body-secondary">Work with APIs, bash scripts, PowerShell, Excel, and data reconciliation</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center my-background bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#table"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Knowledge Bases</h4>
+                <p class="text-body-secondary">Develop and significantly contribute to an easily searched and well structured knowledge base.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!--Contact Me-->
 
