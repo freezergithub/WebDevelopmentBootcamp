@@ -50,3 +50,17 @@ p {
     color:rgb(139, 139, 139);
     font-size: 1.1rem;
 }
+
+.contact-me a {
+    background: rgb(1, 37, 105);
+    border:0;
+}
+
+.contact-me a:hover {
+    color: #fff;
+    background: rgb(95, 126, 184);
+    border: 0;
+}
+
+
+
