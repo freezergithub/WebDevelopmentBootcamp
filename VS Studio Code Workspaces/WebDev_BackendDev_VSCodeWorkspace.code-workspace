@@ -1,16 +1,40 @@
 {
 	"folders": [
 		{
+			"name": "23.1+Using+Node",
 			"path": "../Course Work/23.1+Using+Node"
 		},
 		{
+			"name": "23.2+Native+Modules",
 			"path": "../Course Work/23.2+Native+Modules"
 		},
 		{
+			"name": "23.3+NPM",
 			"path": "../Course Work/23.3+NPM"
 		},
 		{
+			"name": "23.4+QR+Code+Project",
 			"path": "../Course Work/23.4+QR+Code+Project"
+		},
+		{
+			"name": "24.1+Express+Server",
+			"path": "../Course Work/24.1+Express+Server"
+		},
+		{
+			"name": "24.2+HTTP+Requests",
+			"path": "../Course Work/24.2+HTTP+Requests"
+		},
+		{
+			"name": "24.3+Postman",
+			"path": "../Course Work/24.3+Postman"
+		},
+		{
+			"name": "24.4+Middleware",
+			"path": "../Course Work/24.4+Middleware"
+		},
+		{
+			"name": "24.5+Secrets+Project",
+			"path": "../Course Work/24.5+Secrets+Project"
 		}
 	],
 	"settings": {}
