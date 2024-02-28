@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Frontend",
+			"path": "../Course Work/Frontend"
+		},
+		{
+			"name": "Backend",
+			"path": "../Course Work/Backend"
+		}
+	],
+	"settings": {}
+}
